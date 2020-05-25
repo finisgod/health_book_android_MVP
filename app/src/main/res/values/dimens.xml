@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_top_margin">96dp</dimen>
+    <dimen name="icon_menu_top_margin">192dp</dimen>
+    <dimen name="icon_between_margin">32dp</dimen>
+    <dimen name="center">64dp</dimen>
+
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="heading_size">24sp</dimen>
+
+    <dimen name="button_size_width">240dp</dimen>
+    <dimen name="button_size_height">64dp</dimen>
+</resources>

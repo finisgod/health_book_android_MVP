@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_top_margin">8dp</dimen>
+    <dimen name="icon_menu_top_margin">8dp</dimen>
+    <dimen name="center">12dp</dimen>
+    <dimen name="button_size_height">56dp</dimen>
+</resources>

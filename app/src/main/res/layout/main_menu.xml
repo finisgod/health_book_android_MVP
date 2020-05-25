@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageback"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/scan_barcode"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="@dimen/button_size_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/icon_menu_top_margin"
+        android:background="@drawable/button"
+        android:text="@string/button1"
+        android:textColor="#E2FFFFFF"
+        android:textColorLink="#E24722BB"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/massive_of_products"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="@dimen/button_size_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/icon_between_margin"
+        android:background="@drawable/button"
+        android:text="@string/button3"
+        android:textColor="#E2FFFFFF"
+        android:textColorLink="#E24722BB"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/options"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="@dimen/button_size_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/icon_between_margin"
+        android:background="@drawable/button"
+        android:text="@string/button4"
+        android:textColor="#E2FFFFFF"
+        android:textColorLink="#E24722BB"
+        android:textSize="14sp" />
+
+</LinearLayout>

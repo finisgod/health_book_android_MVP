@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imageback">
+
+    <Button
+        android:id="@+id/sign_out"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/button_size_height"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="@string/sign_out"
+        android:textColor="#E2FFFFFF"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+    <Button
+        android:id="@+id/verify_email"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="@dimen/button_size_height"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:text="@string/verify_email"
+        android:textColor="#E2FFFFFF"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+</LinearLayout>

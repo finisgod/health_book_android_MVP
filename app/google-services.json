@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "86956565505",
+    "firebase_url": "https://health-care-mott.firebaseio.com",
+    "project_id": "health-care-mott",
+    "storage_bucket": "health-care-mott.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86956565505:android:e34fb6d6a4961e74250c00",
+        "android_client_info": {
+          "package_name": "ru.mott"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86956565505-q3iqdaispudbp1hlan897gmgudpg7caa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.mott",
+            "certificate_hash": "63026c2328bfb0480bb16cba13c690701c82313c"
+          }
+        },
+        {
+          "client_id": "86956565505-710dl69k6dhp6fv059m46750mficac1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCznD_4X4fQyzNaUWRpRi_6lYRcwKfKxIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86956565505-710dl69k6dhp6fv059m46750mficac1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

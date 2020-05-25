@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Health Book</string>
+
+    <string name="button1">Scan barcode</string>
+    <string name="button3">Choose components</string>
+    <string name="button4">Options</string>
+
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="auth">Log in, please</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Authorise</string>
+    <string name="create_account"> Not registered ? Register now ! </string>
+    <string name="ForgotPassword"> I forgot my password </string>
+
+    <string name="sign_out">Sign out</string>
+    <string name="verify_email">Verify email</string>
+    <string name="go_in">Main menu</string>
+
+    <string name="permission_required">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="alert">Multitracker sample"</string>
+    <string name="barcode_is_not_ready">Barcode reader is not ready, please re-in</string>
+    <string name="what_to_download"> Download components </string>
+
+</resources>

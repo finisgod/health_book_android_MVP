@@ -1,0 +1,32 @@
+<resources xmlns:ns1="http://schemas.android.com/apk/res-auto">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#D8C6BEE5</item>
+        <item name="colorPrimaryDark">#D8372981</item>
+        <item name="colorAccent">#D800199C</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/grey</item>
+        <item name="colorAccent">#D8C6BEE5</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Base.Widget.MaterialComponents.TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingStart" ns1:ignore="NewApi">12dp</item>
+        <item name="android:paddingEnd" ns1:ignore="NewApi">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputEditText.OutlinedBox"
+        parent="Base.Widget.MaterialComponents.TextInputEditText"/>
+
+</resources>
